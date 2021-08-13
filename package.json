@@ -1,0 +1,29 @@
+{
+  "name": "share_my_screen",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "rebuild": "electron-rebuild -f -w robot.js"
+  },
+  "repository": "https://github.com/Master0229/Share_My_Screen",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^13.1.9"
+  },
+  "dependencies": {
+    "electron-rebuild": "^3.1.1",
+    "robotjs": "^0.6.0",
+    "screenshot-desktop": "^1.12.7",
+    "socket.io-client": "^4.1.3"
+  }
+}
