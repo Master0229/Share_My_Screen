@@ -4,7 +4,7 @@ const path = require('path')
 const screenshot = require('screenshot-desktop');
 var robot = require("robotjs");
 
-var socket = require('socket.io-client')('http://192.168.1.10:5000');
+var socket = require('socket.io-client')('https://share-my-screen.azurewebsites.net');
 var interval;
 
 function createWindow() {

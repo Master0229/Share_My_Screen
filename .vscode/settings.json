@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/9d1a2c95-f1a8-44c6-9a0a-745b7175ed93/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/sahre-my-screen",
+    "appService.deploySubpath": "."
+}

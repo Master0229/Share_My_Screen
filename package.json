@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "rebuild": "electron-rebuild -f -w robot.js"
+    "rebuild": "electron-rebuild -f -w robot.js",
+    "app-build": "electron-packager ./ --platform=win32 --arch=x64 --overwrite"
   },
   "repository": "https://github.com/Master0229/Share_My_Screen",
   "keywords": [
@@ -22,7 +23,7 @@
   },
   "dependencies": {
     "electron-rebuild": "^3.1.1",
-    "robotjs": "^0.6.0",
+    "robotjs": "0.6.0",
     "screenshot-desktop": "^1.12.7",
     "socket.io-client": "^4.1.3"
   }

@@ -8,7 +8,7 @@ window.onload = function () {
     ipcRenderer.on("client-id", (event, data) => {
         console.log(data)
         room = data
-        socket = io.connect('http://192.168.1.10:5000');
+        socket = io.connect('https://share-my-screen.azurewebsites.net');
 
         socket.emit("join-message", room);
         socket.on('screen-data', function (message) {
